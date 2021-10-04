@@ -8,27 +8,20 @@ const Target = () => {
   <Accordion.Item eventKey="0">
     <Accordion.Header>Increase Your Knowledge Ares</Accordion.Header>
     <Accordion.Body>
-        We make our all courese specially . Our courses definitely improve and increase your Knowledge area . 
+        We make our all courese specially . Our courses definitely improve and increase your Knowledge area . This course gives you easy access to the invaluable learning techniques used by experts in art, music, literature, math, science, sports, and many other disciplines.
     </Accordion.Body>
   </Accordion.Item>
   <Accordion.Item eventKey="1">
     <Accordion.Header>Make You stronger for all situation</Accordion.Header>
     <Accordion.Body>
      
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
+    This course gives you easy access to the invaluable learning techniques used by experts in art, music, literature, math, science, sports, and many other disciplines. We’ll learn about how the brain uses two very different learning modes and how it encapsulates (“chunks”) information. We’ll also cover illusions of learning, memory techniques, dealing with procrastination, and best practices shown by research to be most effective in helping you master tough subjects. 
     </Accordion.Body>
   </Accordion.Item>
   <Accordion.Item eventKey="2">
     <Accordion.Header>Prepared for Jobs Exam</Accordion.Header>
     <Accordion.Body>
-     
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
+    This course gives you easy access to the invaluable learning techniques used by experts in art, music, literature, math, science, sports, and many other disciplines. We’ll learn about how the brain uses two very different learning modes and how it encapsulates (“chunks”) information. We’ll also cover illusions of learning, memory techniques, dealing with procrastination, and best practices shown by research to be most effective in helping you master tough subjects
     </Accordion.Body>
   </Accordion.Item>
 </Accordion>

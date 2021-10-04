@@ -32,6 +32,7 @@ const Home = () => {
 
                </div>
            </div>
+           <h4 className="text-center fw-bold text-success w-25 mx-auto  py-3">Our Some Courses</h4>
            <ProvideService></ProvideService>
            <div className="w-75 mx-auto mt-2 ">
            <Slider></Slider>

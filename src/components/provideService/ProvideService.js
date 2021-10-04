@@ -9,7 +9,7 @@ const ProvideService = () => {
     useEffect(()=>{
         fetch('./fakedb.json')
         .then(res => res.json())
-        .then(data => setCourse(data.slice(3,6)))
+        .then(data => setCourse(data.slice(3,9)))
     },[])
     return (
         <div>

@@ -2,7 +2,6 @@ import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 
 const FutureCou = (props) => {
-    console.log(props.course);
     const {category,url} = props.course;
     return (
         <div>

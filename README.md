@@ -1,6 +1,43 @@
-# Getting Started with Create React App
+# Create an Educational base App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+this site have lot of  functionality .  We are teaching some courses which are very importance for our daily life .
+
+## Demo site
+
+link: https://optimistic-montalcini-b6db39.netlify.app/
+
+  ## About the site
+
+- Additional browser support
+
+- you will know about our target
+
+- which courses we are providing 
+
+- what our future plan
+## Features
+
+- Light/dark mode toggle
+- Live previews
+- Fullscreen mode
+- Cross platform
+
+## logo
+
+![Logo](https://t3.ftcdn.net/jpg/03/92/80/46/360_F_392804645_tUQxo5EgPXvFGxn5OQguX1BiYlI6lCOV.jpg)
+
+## 🚀 About Me
+I'm a  frontend  developer...
+
+## 🛠 Skills
+Javascript, HTML, CSS...
+
+
+## Tech Stack
+
+**Client:** React, Redux, Bootstrap
+
+**Server:** Node, Express
 
 ## Available Scripts
 
