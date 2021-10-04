@@ -1,0 +1,18 @@
+.custom-heding {
+    border: 1px solid crimson;
+}
+
+.custom-text {
+    padding: 10px 0;
+}
+
+.custom-border {
+    /* border: 1px solid crimson; */
+    background-color: rgba(0, 139, 139, 0.562);
+}
+
+.custom-bg {
+    background-color: rgba(47, 79, 79, 0.575);
+    padding: 1rem 2rem;
+    color: white;
+}
