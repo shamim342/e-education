@@ -19,7 +19,7 @@ const FormJoin = () => {
 
   <Form.Group className="mb-3" controlId="formGridAddress1">
     <Form.Label>Address</Form.Label>
-    <Form.Control placeholder="1234 Main St" />
+    <Form.Control placeholder=" Dhaka , Bangladesh" />
   </Form.Group>
 
   <Row className="mb-3">

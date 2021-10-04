@@ -8,6 +8,7 @@ import Services from './components/services/Services';
 import About from './components/about/About';
 import JoinUs from './components/joinUs/JoinUs';
 import NotFound from './components/notFound/NotFound';
+import FutureCourses from './components/futureCourse/FutureCourses';
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
          </Route>
          <Route path="/joinus">
             <JoinUs></JoinUs>
+         </Route>
+         <Route path="/upcomingCourses">
+            <FutureCourses></FutureCourses>
          </Route>
          <Route path="*">
             <NotFound></NotFound>

@@ -2,7 +2,6 @@ import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 
 const HomeService = (props) => {
-    console.log(props.course);
     const {url,name,runtime,price}=props.course;
     return (
         <div>

@@ -12,6 +12,9 @@ const Home = () => {
     const handleToCourses=()=>{
         history.push('/services');
     }
+    const handleToUpcomingCourses=()=>{
+        history.push('/upcomingCourses');
+    }
     return (
         <div className="container">
            <div className="display-1 ">
@@ -24,13 +27,13 @@ const Home = () => {
                     </h4>
                     <div>
                     <Button className="me-5" onClick={handleToCourses} variant="outline-success">Running Courses</Button>
-                    <Button variant="danger">Upcoming Courses</Button> 
+                    <Button onClick={handleToUpcomingCourses} variant="danger">Upcoming Courses</Button> 
                     </div>
 
                </div>
            </div>
            <ProvideService></ProvideService>
-           <div className="w-75 mx-auto mt-2">
+           <div className="w-75 mx-auto mt-2 ">
            <Slider></Slider>
            </div>
         </div>
