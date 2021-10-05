@@ -17,14 +17,14 @@ const Home = () => {
     }
     return (
         <div className="container">
-           <div className="display-1 ">
-               <div>
-                    <img src={img1} className='custom-img' alt="" />
+           <div className="row mt-3 ">
+               <div className="col-12 col-md-6">
+                    <img src={img1} className='img-fluid' alt="" />
                </div>
-               <div className="text-center my-auto ">
-                    <h4 className="text-info">
+               <div className="col-12 col-md-6 text-center my-auto ">
+                    <h3 className="text-info">
                     Education is both the act of teaching knowledge to others and the act of receiving knowledge from someone else.
-                    </h4>
+                    </h3>
                     <div>
                     <Button className="me-5" onClick={handleToCourses} variant="outline-success">Running Courses</Button>
                     <Button onClick={handleToUpcomingCourses} variant="danger">Upcoming Courses</Button> 

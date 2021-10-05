@@ -4,10 +4,10 @@ import img from '../../images/contact.jpg'
 const Contact = () => {
     return (
         <div className="row">
-            <div className="col-6">
+            <div className="col-12 col-md-6">
                 <img src={img} className="img-fluid" alt="" />
             </div>
-            <div className="col-6">
+            <div className="col-12 col-md-6">
                 <h2>Contact us</h2>
                 <div>
                 <i className="fas fa-envelope-open-text fa-2x "></i>

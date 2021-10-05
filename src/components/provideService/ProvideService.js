@@ -9,11 +9,11 @@ const ProvideService = () => {
     useEffect(()=>{
         fetch('./fakedb.json')
         .then(res => res.json())
-        .then(data => setCourse(data.slice(3,9)))
+        .then(data => setCourse(data.slice(4,8)))
     },[])
     return (
         <div>
-            <Row xs={1} md={3} className="g-4">
+            <Row xs={1} md={4} className="g-4">
                 {
                     courses.map(course=><HomeService key={course.no} course={course}></HomeService>)
                 }

@@ -9,7 +9,6 @@ const FutureCourses = () => {
         .then(res => res.json())
         .then(data =>setCourses(data))
     },[])
-    console.log(courses);
     return (
         <div className="container">
            <Row xs={1} md={2} className="g-4">
